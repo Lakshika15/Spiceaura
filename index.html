@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spices</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!----Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SPICEAURA</a>
+    <button class="navbar-toggler" type="button" 
+    data-bs-toggle="collapse" 
+    data-bs-target="#navbarSupportedContent" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" 
+    id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Product">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#account">Login/Signup</a>
+        </li>
+      </ul>
+    <button class="btn p-2 my-lg-0 my-2">
+  Cart 🛒 <span id="cart-count">0</span>
+</button>
+<a href="#account" class="btn p-2 my-lg-0 my-2">Sign In</a>
+
+
+  </div>
+</nav>
+
+<!----Home-->
+
+<section id="home">
+    <h1 class="text-center">WELCOME TO SPICEAURA</h1>
+    <p>“Discover fresh, authentic spices sourced directly from farmers. Pure taste, delivered to your door.”</p>
+        
+        <a href="#Product" class="btn btn-success">Get Started</a>
+
+</section>
+
+
+
+<!----About-->
+
+<section id="about">
+  <div class="container-fluid">
+      <h1 class="text-center">ABOUT US</h1>
+      <p class="text-center">Welcome to SPICEAURA, your trusted destination for pure, authentic, and handpicked spices.
+We believe that every meal tells a story — and the secret ingredient is always the spice.
+
+Why Choose Us?
+
+🌿 100% Pure & Natural – No artificial colors, no additives
+
+🌶️ Handpicked Quality – Only the finest spices make it to your jar
+
+🚚 Freshly Packed – Sealed with care to lock in natural aroma
+
+❤️ Made with Love – From our family to yours
+Explore our spice collection and bring home the taste of tradition with a modern touch.At SPICEAURA, we believe that spices are the soul of every dish — carrying stories of tradition, culture, and taste across generations. Our journey began with a simple dream: to bring pure, authentic, and farm-fresh spices from trusted growers straight to your kitchen. Every spice we offer is carefully handpicked, ethically sourced, and hygienically packed to lock in its natural aroma and flavor. From golden turmeric and fiery chilies to rare blends and exotic saffron, our collection is crafted to transform everyday meals into extraordinary experiences. What sets us apart is our commitment to quality, sustainability, and honesty — no artificial colors, no preservatives, just nature’s true essence. With every order, you don’t just get spices, you join our mission to support local farmers, preserve age-old traditions, and make cooking joyful, healthy, and flavorful. At SPICEAURA, we promise to keep your kitchen filled with freshness, your dishes bursting with taste, and your heart full of flavor.</p>
+
+  </div>
+</section>
+
+<section id="Product"> 
+  <div class="container m-5"> 
+    <h1 class="text-center ">OUR PRODUCTS</h1> 
+    <div class="row"> 
+      <div class="col-lg-4 col-md-4 col-12"> 
+        <div class="card"> 
+          <img src="cardamom.jpg" class="card-img-top"> 
+          <div class="card-body text-center"> 
+            <h5 class="card-title">Cardamom</h5> 
+            <p class="card-price">₹250 / 100g</p>
+
+      <!-- IMPORTANT: button with data attributes -->
+      <button
+        type="button"
+        class="btn signin add-to-cart"
+        data-id="cardamom"
+        data-name="Cardamom"
+        data-price="250"
+        data-image="cardamom.jpg">
+        Add To Cart
+      </button> 
+          </div> 
+        </div> 
+      </div> 
+      <div class="col-lg-4 col-md-4 col-12"> 
+        <div class="card"> 
+          <img src="Fresh-turmeric-root-Curcuma-longa-scaled-1300x867.jpg" class="card-img-top"> 
+          <div class="card-body text-center"> 
+            <h5 class="card-title">Whole Turmeric</h5> 
+            <p class="card-price">₹150 / 250g</p>
+
+      <!-- IMPORTANT: button with data attributes -->
+      <button
+        type="button"
+        class="btn signin add-to-cart"
+        data-id="Whole Turmeric"
+        data-name="Whole Turmeric"
+        data-price="150"
+        data-image="Whole Turmeric.jpg">
+        Add To Cart
+      </button>
+          </div> 
+        </div> 
+      </div> 
+      <div class="col-lg-4 col-md-4 col-12"> 
+        <div class="card"> 
+          <img src="coriander-jpg-pi7enhf8gdqbs5s6uplvs17d3p046fo9uyk0eeofm0.jpg" class="card-img-top"> 
+          <div class="card-body text-center"> 
+            <h5 class="card-title">Coriander</h5> 
+            <p class="card-price">₹90 / 100g</p>
+
+      <!-- IMPORTANT: button with data attributes -->
+      <button
+        type="button"
+        class="btn signin add-to-cart"
+        data-id="Coriander"
+        data-name="Coriander"
+        data-price="90"
+        data-image="Coriander.jpg">
+        Add To Cart
+      </button> 
+          </div> 
+        </div> 
+      </div>  
+      <div class="row"> 
+        <div class="col-lg-4 col-md-4 col-12"> 
+          <div class="card"> 
+            <img src="star-anise-.jpg" class="card-img-top"> 
+            <div class="card-body text-center"> 
+              <h5 class="card-title">Star Anise</h5> 
+              <p class="card-price">₹250 / 100g</p>
+
+      <!-- IMPORTANT: button with data attributes -->
+      <button
+        type="button"
+        class="btn signin add-to-cart"
+        data-id="Star Anise"
+        data-name="Star Anise"
+        data-price="50"
+        data-image="Star Anise.jpg">
+        Add To Cart
+      </button> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="col-lg-4 col-md-4 col-12"> 
+          <div class="card"> 
+            <img src="dried_bay_leaves-2-pi6h2oz3iezl8xm9c7dt92ffl6z5f4uzo04uk6ype0.jpg" class="card-img-top"> 
+            <div class="card-body text-center"> 
+              <h5 class="card-title">Bay Leaves</h5> 
+             <p class="card-price">₹250 / 100g</p>
+
+      <!-- IMPORTANT: button with data attributes -->
+      <button
+        type="button"
+        class="btn signin add-to-cart"
+        data-id="Bay Leaves"
+        data-name="Bay Leaves"
+        data-price="80"
+        data-image="Bay Leaves.jpg">
+        Add To Cart
+      </button> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="col-lg-4 col-md-4 col-12"> 
+          <div class="card"> 
+            <img src="saffron.jpg" class="card-img-top"> 
+            <div class="card-body text-center"> 
+              <h5 class="card-title">Saffron</h5> 
+              <p class="card-price">₹250 / 100g</p>
+
+      <!-- IMPORTANT: button with data attributes -->
+      <button
+        type="button"
+        class="btn signin add-to-cart"
+        data-id="Saffron"
+        data-name="Saffron"
+        data-price="190"
+        data-image="Saffron.jpg">
+        Add To Cart
+      </button> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+      <div class="row"> 
+        <div class="col-lg-4 col-md-4 col-12"> 
+          <div class="card"> <img src="Whole-chilli.jpg" class="card-img-top"> 
+            <div class="card-body text-center"> 
+              <h5 class="card-title">Whole Chillies</h5> 
+              <p class="card-price">₹120 / 100g</p>
+
+      <!-- IMPORTANT: button with data attributes -->
+      <button
+        type="button"
+        class="btn signin add-to-cart"
+        data-id="Whole chillies"
+        data-name="Whole chillies"
+        data-price="120"
+        data-image="Whole chillies.jpg">
+        Add To Cart
+      </button> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="col-lg-4 col-md-4 col-12"> 
+          <div class="card"> 
+            <img src="Ceylon-Cinnamon-pi6javlgimr5nf5a4d53gbzzvhrd1m6ocvkzcy2olk.jpg" class="card-img-top"> 
+            <div class="card-body text-center"> 
+              <h5 class="card-title">Cinnamon</h5> 
+              <p class="card-price">₹65 / 100g</p>
+
+      <!-- IMPORTANT: button with data attributes -->
+      <button
+        type="button"
+        class="btn signin add-to-cart"
+        data-id="Cinnamon"
+        data-name="Cinnamon"
+        data-price="65"
+        data-image="Cinnamon.jpg">
+        Add To Cart
+      </button> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="col-lg-4 col-md-4 col-12"> 
+          <div class="card"> 
+            <img src="51OeLwBtFmL._UF894,1000_QL80_.jpg" class="card-img-top"> 
+            <div class="card-body text-center"> 
+              <h5 class="card-title">Cumin Seeds</h5> 
+<p class="card-price">₹90 / 100g</p>
+
+      <!-- IMPORTANT: button with data attributes -->
+      <button
+        type="button"
+        class="btn signin add-to-cart"
+        data-id="Cumin Seeds"
+        data-name="Cumin Seeds"
+        data-price="90"
+        data-image="Cumin Seeds.jpg">
+        Add To Cart
+      </button> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+  </section>  
+
+  <section id="account">
+  <div class="container box">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-8 col-12">
+        <h1 class="text-center">Login / Signup</h1>
+
+        <!-- Login Form -->
+        <form id="loginForm" class="mb-3">
+          <h4>Login</h4>
+          <input type="email" class="form-control" placeholder="Enter Your Email" required>
+          <input type="password" class="form-control" placeholder="Enter Password" required>
+          <button class="btn signin w-100">Login</button>
+        </form>
+
+        <hr>
+
+        <!-- Signup Form -->
+        <form id="signupForm" class="mb-3">
+          <h4>Signup</h4>
+          <input type="text" class="form-control" placeholder="Full Name" required>
+          <input type="email" class="form-control" placeholder="Enter Your Email" required>
+          <input type="password" class="form-control" placeholder="Create Password" required>
+          <button class="btn signin w-100">Signup</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Cart Popup -->
+<div id="cart-popup" class="cart-popup">
+  <h3>My Basket <span id="cart-item-count">(0)</span></h3>
+  <div id="cart-items"></div>
+  <div class="cart-summary">
+    <p>Sub-Total: ₹<span id="cart-subtotal">0</span></p>
+    <p><strong>Total: ₹<span id="cart-total">0</span></strong></p>
+  </div>
+  <div class="cart-actions">
+    <button id="view-cart">View Cart</button>
+    <button id="checkout">Checkout</button>
+  </div>
+</div>
+
+
+
+  <footer>Copyrights @SPICEAURA 2025 All Rights Reserved</footer> 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script> 
+  <script src="script.js"></script>
+
+</body> 
+</html>
